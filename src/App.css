@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'BYekan';
+  src:url('./fonts/Yekan.ttf') format('truetype');
+}
+
 .App {
   text-align: center;
+  margin:'20px';
 }
 
 .App-logo {
@@ -35,4 +41,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+  padding:10px 0px;
+  background-color:  rgb(152,154,153);
 }
